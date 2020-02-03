@@ -1,3 +1,13 @@
+<#
+    .DESCRIPTION
+        Stop all the VM's based on the query search result using the Run As Account (Service Principle). We are using Log Analytics workspae
+        for query based search. 
+        
+    .NOTES
+        AUTHOR: Azure Automation Team
+        LASTEDIT: Jan 31, 2019
+#>
+
 [OutputType("PSAzureOperationResponse")]
 param
 (
